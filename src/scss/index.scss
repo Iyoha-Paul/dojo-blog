@@ -21,7 +21,7 @@ code {
 }
 
 .navbar {
-  padding: 20px;
+  padding: 2rem;
   display: flex;
   align-items: center;
   max-width: 600px;
@@ -51,6 +51,7 @@ code {
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
+  display: flex;
   &:hover {
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
   }
@@ -58,6 +59,93 @@ code {
     font-size: 20px;
     color: #f1356d;
     margin-bottom: 8px;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    margin-left: auto;
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    height: 4rem;
+    padding: 0rem 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+.blog-details {
+  h2 {
+    font-size: 2rem;
+    color: #f1356d;
+    margin-bottom: 1rem;
+  }
+  div {
+    margin: 2rem 0;
+    color: #747474;
+  }
+  em {
+    font-size: 1.6rem;
+  }
+  button {
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+  }
+}
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  label {
+    text-align: left;
+    display: block;
+  }
+  h2 {
+    font-size: 20px;
+    color: #f1356d;
+    margin-bottom: 30px;
+  }
+  select,
+  input,
+  textarea {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+  button {
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+.not-found {
+  h1 {
+    font-size: 6rem;
+    text-align: center;
+    color: #f1356d;
+  }
+  p {
+    color: #747474;
+    font-size: 2rem;
+  }
+  .link {
+    margin-left: auto;
+    font-size: 1.6rem;
+    color: #f1356d;
+    text-decoration: none;
+    &:hover {
+      color: #747474;
+    }
   }
 }
 /* blog previews / list */
